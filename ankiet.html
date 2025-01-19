@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankieta o Artefaktach</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Ankieta o Artefaktach</h2>
+    <form action="/submit" method="post">
+        
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        
+        <label for="age">Wiek:</label>
+        <input type="number" id="age" name="age"><br><br>
+        
+        
+        <label>Którą serię czytałeś?</label><br>
+        <input type="radio" id="którą_serię_czytałeś" name="którą_serię_czytałeś" value="Baśniobór">
+        <label for="którą_serię_czytałeś">Baśniobór</label><br>
+        <input type="radio" id="Smocza_Straż" name="którą_serię_czytałeś" value="Smocza_Straż">
+        <label for="Smocza_Straż">Smocza Straż</label><br>
+        <input type="radio" id="obie" name="którą_serię_czytałeś" value="obie">
+        <label for="obie">Smocza Straż i Baśniobór</label><br>
+        <input type="radio" id="nie_czytałem" name="którą_serię_czytałeś" value="nie_czytałem">
+        <label for="nie_czytałem">Nie Czytałem</label><br>
+        <br><br>
+        
+        
+        <label for="ulubiona_seria">Która seia była twoja ulubiona</label><br>
+        <input type="checkbox" id="Baśniobór" name="ulubiona_seria" value="Baśniobór">
+        <label for="Baśniobór">Baśniobór</label><br>
+        <input type="checkbox" id="Smocza_Straż" name="ulubiona_seria" value="Smocza_Straż">
+        <label for="Smocza_Straż">Smocza Straż</label><br>
+        <input type="checkbox" id="Nie_mam" name="ulubiona_seria" value="Nie_mam">
+        <label for="Nie_mam">Nie mam ulubionej serii</label><br>
+        
+ 
+        <label for="artefakt_który_chciałbyś_mieć">Który artefakt chciałbyś mieć?</label>
+        <select id="artefakt_który_chciałbyś_mieć" name="artefakt_który_chciałbyś_mieć">
+            <option value="Piaski_Świętości">Piaski Swiętości</option>
+            <option value="Chronometr">Chronometr</option>
+            <option value="Translocator">Translocator</option>
+            <option value="Oculus">Oculus</option>
+            <option value="Krynica_Nieśmiertelności">Krynica Nieśmiertelności</option>
+            <option value="Najwyższa_Czaszka">Najwyższa Czaszka Górne</option>
+            <option value="Vasilis">Vasilis</option>
+        </select><br><br>
+        
+       
+        <input type="reset" value="Wyczyść formularz">
+        <input type="submit" value="Prześlij">
+    </form>
+    <a href=index.html>Strona główna</a>
+</body>
+</html>

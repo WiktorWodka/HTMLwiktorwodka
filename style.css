@@ -1,0 +1,670 @@
+body {
+    background-color: #4B70F5;
+    color: rgb(255, 255, 255);
+
+}
+
+header {
+    background-color: #402E7A;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 25px;
+    height: 5vh;
+    width: 100vw;
+    padding: 1%;
+    font-size: 3vw;
+    text-decoration: rgb(255, 255, 255);
+    margin-left: -1%;
+    margin-top: -0.5%;
+}
+
+nav {
+    background-color: #4C3BCF;
+    height: 40vh;
+    margin-top: 1%;
+    border-radius: 25px;
+    padding: 1%;
+    font-size: 1.3vw;
+    width: 5.4vw;
+
+
+}
+
+footer {
+    background-color: #402E7A;
+    width: 110%;
+    height: 2.5vh;
+    position: fixed;
+    bottom: 0%;
+    left: -0.5%;
+    text-align: center;
+}
+
+main {
+    background-color: #4C3BCF;
+    
+    height: 80vh;
+    position: absolute;
+    top: 11vh;
+    
+    border-radius: 25px;
+    padding: 1%;
+    font-size: 2vh;
+}
+
+
+
+a {
+    color: aliceblue;
+}
+
+ul {
+    padding-left: 1vw;
+}
+
+
+@media (max-width: 599px) {
+    @keyframes com {
+        0% {
+            font-size: 15vh;
+        }
+
+        50% {
+            font-size: 10vh;
+        }
+
+        100% {
+            font-size: 15vh;
+        }
+
+    }
+
+    nav {
+        visibility: hidden;
+    }
+
+
+    .dropdown {
+        position: absolute;
+        display: inline-block;
+        top: -0%;
+        border-radius: 2px;
+        background-color: #402E7A;
+    }
+
+
+    .dropdown-content {
+        text-align: center;
+        display: none;
+        position: absolute;
+        background-color: #4B70F5;
+        min-width: 80px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    header {
+        width: 100vw;
+        position: absolute;
+        right: -0%;
+
+        padding-top: 2%;
+        padding-bottom: -2%;
+        padding: 1%;
+        height: 3vh;
+    }
+
+    
+
+
+    .dropdown-content a:hover {
+        background-color: #402E7A
+    }
+
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+
+    .dropdown:hover .dropbtn {
+        background-color: #402E7A;
+    }
+
+
+    .dropbtn {
+        visibility: visible;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        background-color: #402E7A;
+        position: absolute;
+        top: 6vh;
+        width: 100vw;
+        left: -2vw;
+    }
+
+    .main_gr1 {
+        visibility: hidden;
+    }
+
+    .main_gr2 {
+        visibility: visible;
+        position: absolute;
+        top: 6vh;
+        left: 6vw;
+    }
+
+    .main_t2 {
+        position: absolute;
+        top: 10vh;
+        left: 40vw;
+    }
+
+    .main_t1 {
+        position: relative;
+        top: 30vh;
+    }
+
+    main {
+        height: 96vh;
+        position: absolute;
+        top: 12vh;
+        width: 100%;
+        left: 3vw;
+    }
+
+    .mapa {
+        width: 100vw;
+        height: 50vh;
+        top: 38vh;
+        left: -0vw;
+
+    }
+    .tabela {
+        width: 100vw;
+        height: 42vh;
+        top: 39vh;
+        left: -0vw;
+    }
+    .film {
+        width: 100vw;
+        height: 50vh;
+        top: 40vh;
+    }
+    .tr_1_gal {
+        height: 100;
+    
+    }
+    
+    .tb_1_gal {
+        position: fixed;
+        margin: auto;
+        top: 12%;
+        
+        bottom: 2%;
+        background-color: #4C3BCF;
+        border-width: 9px;
+        border-style: double;
+        width: 300px;
+        height: 400px;
+        border-color: #0D0D0D;
+        align-content: center;
+        inline-size: 0.1;
+    }
+    
+    .h1_t_gal {
+    
+        text-align: center;
+    
+    }
+    
+    .td_1_gal {
+        width: 100;
+        align-content: center;
+    
+    }
+    
+    .fix {
+        height: 300px;
+        align-content: center;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .dropdown {
+        visibility: hidden;
+    }
+
+    .dropbtn {
+        position: absolute;
+        top: -100%;
+    }
+
+    .dropdown-content {
+        display: flex;
+        margin-left: auto;
+        justify-content: center;
+    }
+
+    .main_gr2 {
+        visibility: hidden;
+    }
+
+    .mapa {
+
+        top: -2vh;
+        left: 1vw;
+
+        width: 22vw;
+        height: 40vh;
+
+
+    }
+
+    .film {
+
+        top: -89vh;
+        left: 55vw;
+        width: 18vw;
+        height: 45vh;
+    }
+
+    .tabela {
+        top: -46vh;
+        left: 29vw;
+        width: 20vw;
+        height: 40vh;
+    }
+    .tr_1_gal {
+        height: 100;
+    
+    }
+    
+    .tb_1_gal {
+        position: fixed;
+        margin: auto;
+        top: 8%;
+        right: 25%;
+        left: 25%;
+        bottom: 2%;
+        background-color: #4C3BCF;
+        border-width: 9px;
+        border-style: double;
+        width: 600px;
+        height: 700px;
+        border-color: #0D0D0D;
+        align-content: center;
+    }
+    
+    .h1_t_gal {
+    
+        text-align: center;
+    
+    }
+    
+    .td_1_gal {
+        width: 100;
+        align-content: center;
+    
+    }
+    
+    .fix {
+        height: 600px;
+        align-content: center;
+    }
+    main{
+        width: 80vw;
+        left: 13vw;
+    }
+
+}
+
+.sum {
+    animation: com 5s infinite;
+}
+
+@keyframes com {
+    0% {
+        font-size: 3.5vw;
+    }
+
+    50% {
+        font-size: 4vw;
+    }
+
+    100% {
+        font-size: 3.5vw;
+    }
+
+}
+
+.main_t1 {
+    width: 34vw;
+}
+
+.main_t2 {
+    width: 34vw;
+
+}
+
+.main_gr1 {
+    float: right;
+    margin-top: -12vh;
+
+}
+
+.mapa {
+    position: relative;
+
+    background-color: #4C3BCF;
+
+    border-radius: 25px;
+    padding: 1%;
+    font-size: 2vh;
+
+}
+
+.tabela {
+    position: relative;
+
+    background-color: #4C3BCF;
+
+    border-radius: 25px;
+    padding: 1%;
+    font-size: 2vh;
+}
+
+.film {
+    position: relative;
+
+    background-color: #4C3BCF;
+
+    border-radius: 25px;
+    padding: 1%;
+    font-size: 2vh;
+}
+
+nav {
+    height: 70vh;
+    width: 8vw;
+}
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 1199px) {
+    nav {
+        display: none;
+
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        border-radius: 2px;
+        background-color: #402E7A;
+        z-index: 1;
+    }
+
+    .dropdown-content {
+        text-align: center;
+        display: none;
+        position: absolute;
+        background-color: #4B70F5;
+        min-width: 80px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    header {
+        width: 75vw;
+        position: absolute;
+        right: 0;
+        font-size: 4vw;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding: 1%;
+        height: 4vh;
+    }
+
+    main {
+        width: 100%;
+        left: 0;
+        height: 53vh;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #402E7A;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #402E7A;
+    }
+
+    .dropdown .dropbtn {
+        padding: 16px;
+        font-size: 6vw;
+        border: none;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+
+        background-color: #402E7A;
+        text-align: center;
+
+        display: inline-block;
+
+    }
+
+    .dropbtn {
+        color: white;
+
+    }
+
+    button {
+        color: white;
+    }
+
+    .main_gr2 {
+        visibility: visible;
+        position: absolute;
+        top: 10vh;
+        left: 80vw;
+    }
+
+    .main_gr1 {
+        visibility: hidden;
+    }
+
+    .main_t2 {
+        position: absolute;
+        top: 2vh;
+        left: 37vw;
+    }
+
+    header {
+        height: 5vh;
+        position: absolute;
+        top: 3vh;
+    }
+
+    .tabela {
+        height: 70vh;
+        top: 20vh;
+        left: 60vw;
+        width: 22vw;
+    }
+
+    .film {
+        width: 40vh;
+        top: -63vh;
+    }
+
+    .mapa {
+        width: 40vh;
+        top: 105vh;
+    }
+    .tr_1_gal {
+        height: 100;
+    
+    }
+    
+    .tb_1_gal {
+        position: fixed;
+        margin: auto;
+        top: 12%;
+        right: 25%;
+        left: 25%;
+       
+        background-color: #4C3BCF;
+        border-width: 9px;
+        border-style: double;
+        width: 500px;
+        height: 600px;
+        border-color: #0D0D0D;
+        align-content: center;
+    }
+    
+    .h1_t_gal {
+    
+        text-align: center;
+    
+    }
+    
+    .td_1_gal {
+        width: 100;
+        align-content: center;
+    
+    }
+    
+    .fix {
+        height: 500px;
+        align-content: center;
+    }
+
+}
+body {
+    
+    box-sizing: border-box;
+}
+
+.home-button {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #402E7A;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: #4C3BCF;
+}
+
+.gallery-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+button.prev:hover, button.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Ustawienia dla telefonów komórkowych */
+@media (max-width: 600px) {
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery img {
+        max-width: 100%;
+    }
+}
+
+/* Ustawienia dla tabletów */
+@media (min-width: 601px) and (max-width: 1199px) {
+    .gallery img {
+        max-width: 45%;
+    }
+}
+
+/* Ustawienia dla komputerów */
+@media (min-width: 1200px) {
+    .gallery img {
+        max-width: 30%;
+    }
+}
+.sumthng {
+    margin-left: 45%;
+}
